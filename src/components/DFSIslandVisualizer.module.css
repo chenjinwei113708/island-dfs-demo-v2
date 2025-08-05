@@ -1,0 +1,54 @@
+/* DFSIslandVisualizer.module.css */
+.container {
+    padding: 16px;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 32px);
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.cell {
+    width: 32px;
+    height: 32px;
+    border: 1px solid white;
+}
+
+.water {
+    background-color: #3b82f6;
+}
+
+.land {
+    background-color: #22c55e;
+}
+
+.visited {
+    background-color: #ef4444;
+}
+
+.borderLand {
+    background-color: #facc15;
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.counter {
+    margin-top: 12px;
+    font-weight: bold;
+}

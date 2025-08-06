@@ -108,7 +108,7 @@ export default function DFSIslandVisualizer() {
                 </button>
             </div>
 
-            <div className={styles.counter}>封闭岛数量：{count}</div>
+            <div className={styles.counter}>封闭岛数量test：{count}</div>
         </div>
     );
 }

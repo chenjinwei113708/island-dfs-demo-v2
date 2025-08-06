@@ -1,4 +1,4 @@
-import DFSIslandVisualizer from './components/DFSIslandVisualizer';
+import DFSIslandVisualizer from './components/DFSIsland/DFSIslandVisualizer';
 
 function App() {
   return <DFSIslandVisualizer />;
